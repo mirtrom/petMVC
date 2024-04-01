@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StoreWeb", "StoreWeb\StoreWeb.csproj", "{842294FB-64FD-4F96-BCEF-0884891E7FE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreDataAccess", "StoreDataAccess\StoreDataAccess.csproj", "{64AFBC5F-3346-4F7E-8282-EEDE0F07ED22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{842294FB-64FD-4F96-BCEF-0884891E7FE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{842294FB-64FD-4F96-BCEF-0884891E7FE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{842294FB-64FD-4F96-BCEF-0884891E7FE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{842294FB-64FD-4F96-BCEF-0884891E7FE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64AFBC5F-3346-4F7E-8282-EEDE0F07ED22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64AFBC5F-3346-4F7E-8282-EEDE0F07ED22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64AFBC5F-3346-4F7E-8282-EEDE0F07ED22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64AFBC5F-3346-4F7E-8282-EEDE0F07ED22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DADD56B7-08C1-48AD-8E6F-9E9E95C215E4}
+	EndGlobalSection
+EndGlobal

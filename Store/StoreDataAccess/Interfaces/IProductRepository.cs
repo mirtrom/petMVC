@@ -9,5 +9,7 @@ namespace StoreDataAccess.Interfaces
 {
 	public interface IProductRepository: IRepository<Product>
 	{
+		public Task<IEnumerable<Product>> GetAllWithDetailsAsync();
+		public Task<Product> GetByIdWithDetailsAsync(int id);
 	}
 }

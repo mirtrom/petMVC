@@ -10,15 +10,15 @@ using System.Threading.Tasks;
 
 namespace StoreDataAccess.Repositories
 {
-	public class Repository<T> : IRepository<T> where T : AbstractModel
+	public class Repository<T> : IRepository<T> where T : class
 	{
-		private readonly DbSet<T> dbSet;
+		public readonly DbSet<T> dbSet;
 
         public Repository(StoreDbContext context)
         {
 			dbSet = context.Set<T>();
         }
-        public async Task Add(T entity)
+        public async Task AddAsync(T entity)
 		{
 			await dbSet.AddAsync(entity);
 		}
@@ -28,27 +28,22 @@ namespace StoreDataAccess.Repositories
 			dbSet.Remove(entity);
 		}
 
-		public async Task Delete(int id)
+		public async Task DeleteAsync(int id)
 		{
-			var entity = await GetById(id);
+			var entity = await GetByIdAsync(id);
 			dbSet.Remove(entity);
 
 		}
 
-		public async Task<List<T>> GetAll()
+		public async Task<IEnumerable<T>> GetAllAsync()
 		{
 			return await dbSet.ToListAsync();
 		}
 
-		public async Task<T> GetById(int id)
+		public async Task<T> GetByIdAsync(int id)
 		{
 			var entity = await dbSet.FindAsync(id);
-			if (entity == null)
-			{
-				throw new ArgumentException("Entity not found");
-			}
-			else 
-				return entity;
+			return entity;
 		}
 
 		public void Update(T entity)

@@ -10,6 +10,11 @@ namespace StoreDataAccess.Interfaces
     {
         IProductRepository ProductRepository { get; set; }
         ICategoryRepository CategoryRepository { get; set; }
-        void Save();
+        ICompanyRepository CompanyRepository { get; set; }
+        IShoppingCardRepository ShoppingCardRepository { get; set; }
+        IStoreUserRepository StoreUserRepository { get; set; }
+        IOrderHeaderRepository OrderHeaderRepository { get; set; }
+        IOrderDetailRepository OrderDetailRepository { get; set; }
+        Task SaveAsync();
     }
 }

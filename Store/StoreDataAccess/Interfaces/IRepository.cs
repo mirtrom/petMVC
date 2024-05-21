@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace StoreDataAccess.Interfaces
 {
-	public interface IRepository<T> where T : AbstractModel
+	public interface IRepository<T> where T : class //AbstractModel
 	{
-		Task Add(T entity);
+		Task AddAsync(T entity);
 		void Update(T entity);
 		void Delete(T entity);
-		Task Delete(int id);
-		Task<T> GetById(int id);
-		Task<List<T>> GetAll();
+		Task DeleteAsync(int id);
+		Task<T> GetByIdAsync(int id);
+		Task<IEnumerable<T>> GetAllAsync();
 	}
 }

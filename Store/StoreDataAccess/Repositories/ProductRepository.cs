@@ -15,5 +15,17 @@ namespace StoreDataAccess.Repositories
 		public ProductRepository(StoreDbContext context): base(context)
 		{
 		}
+		public async Task<IEnumerable<Product>> GetAllWithDetailsAsync() {
+			return await dbSet.
+				Include(p => p.Category)
+				.ToListAsync();
+		}
+
+		public async Task<Product> GetByIdWithDetailsAsync(int id)
+		{
+			return await dbSet
+				.Include(p => p.Category)
+				.FirstOrDefaultAsync(p => p.Id == id);
+		}
 	}
 }

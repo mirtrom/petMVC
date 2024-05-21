@@ -13,6 +13,42 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Misha\\source\\Repos\\petMVC\\Store\\StoreWeb\\wwwroot\\images\\Category\\5eb43d02-ba98-44a0-8181-0bf03c4d1322.jpg",
+      "PackagePath": "staticwebassets\\images\\Category\\5eb43d02-ba98-44a0-8181-0bf03c4d1322.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Misha\\source\\Repos\\petMVC\\Store\\StoreWeb\\wwwroot\\images\\Category\\a63cabf2-0d6d-4784-b612-3a53bab58be8.png",
+      "PackagePath": "staticwebassets\\images\\Category\\a63cabf2-0d6d-4784-b612-3a53bab58be8.png"
+    },
+    {
+      "Id": "C:\\Users\\Misha\\source\\Repos\\petMVC\\Store\\StoreWeb\\wwwroot\\images\\Category\\fed40d7c-ca89-4c1b-9459-1e2d2f0e2370.png",
+      "PackagePath": "staticwebassets\\images\\Category\\fed40d7c-ca89-4c1b-9459-1e2d2f0e2370.png"
+    },
+    {
+      "Id": "C:\\Users\\Misha\\source\\Repos\\petMVC\\Store\\StoreWeb\\wwwroot\\images\\Product\\62a970fe-ab31-44e6-aa19-f99c0c39b871.png",
+      "PackagePath": "staticwebassets\\images\\Product\\62a970fe-ab31-44e6-aa19-f99c0c39b871.png"
+    },
+    {
+      "Id": "C:\\Users\\Misha\\source\\Repos\\petMVC\\Store\\StoreWeb\\wwwroot\\images\\Product\\95ed6908-c459-4eaf-a521-660d9abdd3b5.png",
+      "PackagePath": "staticwebassets\\images\\Product\\95ed6908-c459-4eaf-a521-660d9abdd3b5.png"
+    },
+    {
+      "Id": "C:\\Users\\Misha\\source\\Repos\\petMVC\\Store\\StoreWeb\\wwwroot\\images\\Product\\f89ed8c1-ddf1-4c75-9367-29dcf4153e55.png",
+      "PackagePath": "staticwebassets\\images\\Product\\f89ed8c1-ddf1-4c75-9367-29dcf4153e55.png"
+    },
+    {
+      "Id": "C:\\Users\\Misha\\source\\Repos\\petMVC\\Store\\StoreWeb\\wwwroot\\js\\company.js",
+      "PackagePath": "staticwebassets\\js\\company.js"
+    },
+    {
+      "Id": "C:\\Users\\Misha\\source\\Repos\\petMVC\\Store\\StoreWeb\\wwwroot\\js\\order.js",
+      "PackagePath": "staticwebassets\\js\\order.js"
+    },
+    {
+      "Id": "C:\\Users\\Misha\\source\\Repos\\petMVC\\Store\\StoreWeb\\wwwroot\\js\\product.js",
+      "PackagePath": "staticwebassets\\js\\product.js"
+    },
+    {
       "Id": "C:\\Users\\Misha\\source\\Repos\\petMVC\\Store\\StoreWeb\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

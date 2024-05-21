@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Misha\\source\\Repos\\petMVC\\Store\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{842294FB-64FD-4F96-BCEF-0884891E7FE6}|StoreWeb\\StoreWeb.csproj|c:\\users\\misha\\source\\repos\\petmvc\\store\\storeweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{842294FB-64FD-4F96-BCEF-0884891E7FE6}|StoreWeb\\StoreWeb.csproj|solutionrelative:storeweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{842294FB-64FD-4F96-BCEF-0884891E7FE6}|StoreWeb\\StoreWeb.csproj|c:\\users\\misha\\source\\repos\\petmvc\\store\\storeweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{842294FB-64FD-4F96-BCEF-0884891E7FE6}|StoreWeb\\StoreWeb.csproj|solutionrelative:storeweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64AFBC5F-3346-4F7E-8282-EEDE0F07ED22}|StoreDataAccess\\StoreDataAccess.csproj|c:\\users\\misha\\source\\repos\\petmvc\\store\\storedataaccess\\models\\storeuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64AFBC5F-3346-4F7E-8282-EEDE0F07ED22}|StoreDataAccess\\StoreDataAccess.csproj|solutionrelative:storedataaccess\\models\\storeuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{842294FB-64FD-4F96-BCEF-0884891E7FE6}|StoreWeb\\StoreWeb.csproj|c:\\users\\misha\\source\\repos\\petmvc\\store\\storeweb\\areas\\admin\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{842294FB-64FD-4F96-BCEF-0884891E7FE6}|StoreWeb\\StoreWeb.csproj|solutionrelative:storeweb\\areas\\admin\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,15 +38,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\petMVC\\Store\\StoreWeb\\Program.cs",
-              "RelativeDocumentMoniker": "StoreWeb\\Program.cs",
-              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\petMVC\\Store\\StoreWeb\\Program.cs",
-              "RelativeToolTip": "StoreWeb\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "StoreUser.cs",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\petMVC\\Store\\StoreDataAccess\\Models\\StoreUser.cs",
+              "RelativeDocumentMoniker": "StoreDataAccess\\Models\\StoreUser.cs",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\petMVC\\Store\\StoreDataAccess\\Models\\StoreUser.cs",
+              "RelativeToolTip": "StoreDataAccess\\Models\\StoreUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T08:22:29.174Z",
+              "WhenOpened": "2024-05-21T23:14:13.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CompanyController.cs",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\petMVC\\Store\\StoreWeb\\Areas\\Admin\\Controllers\\CompanyController.cs",
+              "RelativeDocumentMoniker": "StoreWeb\\Areas\\Admin\\Controllers\\CompanyController.cs",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\petMVC\\Store\\StoreWeb\\Areas\\Admin\\Controllers\\CompanyController.cs",
+              "RelativeToolTip": "StoreWeb\\Areas\\Admin\\Controllers\\CompanyController.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAHUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T22:56:59.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Misha\\source\\Repos\\petMVC\\Store\\StoreWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "StoreWeb\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Misha\\source\\Repos\\petMVC\\Store\\StoreWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "StoreWeb\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAADIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T22:54:59.771Z",
               "EditorCaption": ""
             }
           ]

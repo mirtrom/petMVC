@@ -9,16 +9,26 @@ namespace StoreDataAccess.Models.Data
 		public IProductRepository ProductRepository {get; set; }
 
 		public ICategoryRepository CategoryRepository { get; set; }
+		public ICompanyRepository CompanyRepository { get; set; }
+        public IShoppingCardRepository ShoppingCardRepository { get; set; }
+        public IStoreUserRepository StoreUserRepository { get; set; }
+		public IOrderHeaderRepository OrderHeaderRepository { get; set; }
+		public IOrderDetailRepository OrderDetailRepository { get; set; }
 
-		public UnitOfWork(StoreDbContext context)
+        public UnitOfWork(StoreDbContext context)
 		{
 			_context = context;
+			StoreUserRepository = new StoreUserRepository(_context);
 			ProductRepository = new ProductRepository(_context);
 			CategoryRepository = new CategoryRepository(_context);
+			CompanyRepository = new CompanyRepository(_context);
+			ShoppingCardRepository = new ShoppingCardRepository(_context);
+			OrderHeaderRepository = new OrderHeaderRepository(_context);
+			OrderDetailRepository = new OrderDetailRepository(_context);
 		}
-		public void Save()
+		public async Task SaveAsync()
 		{
-			_context.SaveChanges();
+			await _context.SaveChangesAsync();
 		}
 	}
 }
